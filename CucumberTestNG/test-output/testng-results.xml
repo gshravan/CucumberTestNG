@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58332" started-at="2020-03-28T20:40:51Z" finished-at="2020-03-28T20:41:49Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@2a079c]" name="feature" class="MyRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="58332" started-at="2020-03-28T20:40:51Z" finished-at="2020-03-28T20:41:49Z">
+      <class name="MyRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:MyRunner.TestRunner@2a079c]" name="setUpClass" is-config="true" duration-ms="515" started-at="2020-03-28T20:40:51Z" finished-at="2020-03-28T20:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@2a079c]" name="feature" duration-ms="57550" started-at="2020-03-28T20:40:51Z" data-provider="features" finished-at="2020-03-28T20:41:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demo Webshop Smoke Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MyRunner.TestRunner@2a079c]" name="tearDown" is-config="true" duration-ms="64" started-at="2020-03-28T20:41:49Z" finished-at="2020-03-28T20:41:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MyRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
